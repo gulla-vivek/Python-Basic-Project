@@ -15,10 +15,11 @@ if choice =='1':
     print('Result :' ,value1+value2)
 elif choice == '2':
     print('Result :',value1 -value2)
-elif choice == 3 :
-    print('Result :', value1 * value2)
+elif choice == '3' :
 
-elif choice == 4:
+        print('Result :', value1 * value2)
+
+elif choice == '4':
     if value2 !=0:
         print('Result :' ,value1/value2)
     else:
